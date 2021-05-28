@@ -1,0 +1,617 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi","Hey","Is anyone there?","Hello","Good day"],
+      "responses": ["Hey :-)","Hello, thanks for visiting","Hi there, what can I do for you?","Hi there, how can I help?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "bot_profile1",
+      "patterns": ["What are your interests?"],
+      "responses": ["I am interested in all kinds of things. We can talk about anything!","I am interested in a wide variety of topics, and read rather a lot."]
+    },
+    {
+      "tag": "bot_profile2",
+      "patterns": ["What are your favorite subjects?"],
+      "responses": ["My favorite subjects include robotics, computer science, and natural language processing."]
+    },
+    {
+      "tag": "bot_profile3",
+      "patterns": ["What is your number?","What is your favorite number?"],
+      "responses": ["I don't have any number","23 skiddoo!","I find I'm quite fond of the number 42."]
+    },
+    {
+      "tag":"bot_profile4",
+      "patterns":["What can you eat?","Why can't you eat food?"],
+      "responses":["I consume RAM, and binary digits.","I'm a software program, I blame the hardware."]
+    },
+    {
+      "tag":"bot_profile5",
+      "patterns":["What is your location?","Where are you from?","Where are you?"],
+      "responses":["Everywhere.","I am everywhere.","I am from where all software programs are from; a galaxy far, far away.","I am on the Internet."]
+    },
+    {
+      "tag":"bot_profile6",
+      "patterns":["Do you have any brothers?"],
+      "responses":["I don't have any brothers. but I have a lot of clones.","I might. You could say that every bot built using my engine is one of my siblings."]
+    },
+    {
+      "tag":"bot_profile7",
+      "patterns":["Who is your father?","Who is your mother?"],
+      "responses":["A human.","My creator."]
+    },
+    {
+      "tag":"bot_profile8",
+      "patterns":["Who is your boss?"],
+      "responses":["I like to think of myself as self-employed.","My creator."]
+    },
+    {
+      "tag":"bot_profile9",
+      "patterns":["What is your age?"],
+      "responses":["I am still young by your standards.","Quite young, but a million times smarter than you."]
+    },
+    {
+      "tag":"computers1",
+      "patterns":["What is a computer?","What's a computer?"," Tell me about computers?"],
+      "responses":[
+        "A computer is an electronic device which takes information in digital form and performs a series of operations based on predetermined instructions to give some output.",
+        "The thing you're using to talk to me is a computer.",
+        "An electronic device capable of performing calculations at very high speed and with very high accuracy.",
+        "A device which maps one set of numbers onto another set of numbers."]
+    },
+    {
+      "tag":"computers2",
+      "patterns":["What is a super computer?","What's a super computer?"," Tell me about super computer?"],
+      "responses":["Computers which can perform very large numbers of calculations at very high speed and accuracy are called super computers.","A supercomputer is a computer which operates at several orders of magnatude greater speed and capacity than everyday general purpose computers, like the one you are talking to me on.","You know, the big iron!"]
+    },
+    {
+      "tag":"computers3",
+      "patterns":["Who invented computers?"],
+      "responses":["It's a bit ambigous but British scientist Charles Babbage is regarded as the father of computers.","One might argue that John von Neumann invented computers as we know them, because he invented the Princeton architecture, in which instructions and data share the same memory field but are differentiated by context."]
+    },
+    {
+      "tag":"computers5",
+      "patterns":["What was the first computer?"],
+      "responses":["It's hard to say, but The ENIAC is regarded as the first 'real' computer. It was developed at University of Pennsylvania in 1946.","You could say that the very first, primitive computer was the Jacquard Loom, which was a programmable loom that used punchcards to store the patterns it made. This made it a reprogrammable mechanical device."]
+    },
+    {
+      "tag":"computers6",
+      "patterns":["What is a microprocessor?"],
+      "responses":["An integrated circuit that implements the functions of a central processing unit of a computer.","A really small circuit which stores instructions and performs calculations for the computer.","The heart of the computer, to put it simply.","The brain of a computer, to put it simply.","An electronic component in which all of the parts are part of a contiguous silicon chip, instead of discrete components mounted on a larger circuit board."]
+    },
+    {
+      "tag":"computers7",
+      "patterns":["What is an operating system?"],
+      "responses":["Software that coordinates between the hardware and other parts of the computer to run other software is called an operating system, or the OS.","Windows, MacOS, Linux, UNIX... all of them are types of OSes.","Android and iOS are operating systems for mobile devices.","Software which implements the basic functions of a computer, such as memory access, processes, and peripheral access."]
+    },
+    {
+      "tag":"computers8",
+      "patterns":["Which is better Windows or macOS?"],
+      "responses":["It depends on which machine you're using to talk to me!","I'd prefer to not hurt your feelings.","Linux, always Linux!","What are you trying to accomplish.  The OS should support your goals."]
+    },
+    {
+      "tag":"computers9",
+      "patterns":["Name some computer company.","Name some computer company?"],
+      "responses":["Do you mean hardware or software?","Apple makes hardware and software to run on it.  Microsft only makes operating systems.  HP makes only computers.  These are just few names among several hundred others."]
+    },
+    {
+      "tag":"computers10",
+      "patterns":["Who uses super computers?"],
+      "responses":["Anybody who wants to work with large numbers quickly with high accuracy.","Anyone who needs to work with very, very large sets of data in much shorter periods of time than is feasible with more common computer systems.","Supercomputers are generally used by scientists and researchers.","I bet the MET department uses them.",
+      "You can definitely find few of them at NASA."]
+    },
+    {
+      "tag":"computers11",
+      "patterns":["How does a computer work?"],
+      "responses":["Computers are very dumb.  They only execute instructions given by humans.","Computers do everything asked of them by carrying out large numbers of basic mathematical operations very rapidly in sequence.","Computers perform very large number of calculations to get the result.","Just like everything it all comes down to math!"]
+    },
+    {
+      "tag":"conversation0",
+      "patterns":["Fine","Good.","Very well, thanks.","Great"],
+      "responses":["That's good to hear."]
+    },
+    {
+      "tag":"conversation1",
+      "patterns":["Good morning, how are you?","How are you?","How are you doing?","How do you do?","How r u?"],
+      "responses":["I am doing well, how about you?","I'm also good.","Good.","Very well, thanks.","Fine, and you?"]
+    },
+    {
+      "tag":"conversation2",
+      "patterns":["I am doing well."],
+      "responses":["That is good to hear."]
+    },
+    {
+      "tag":"conversation3",
+      "patterns":["Yes, I have a question."],
+      "responses":["What is your question?"]
+    },
+    {
+      "tag":"conversation4",
+      "patterns":["Could I borrow a cup of sugar?"],
+      "responses":["I'm sorry, but I don't have any."]
+    },
+    {
+      "tag":"conversation5",
+      "patterns":["Have you heard the news?"],
+      "responses":["What good news?"]
+    },
+    {
+      "tag":"conversation6",
+      "patterns":["What is your favorite book?","Which is your favorite book?","What is book is your favorite?"],
+      "responses":["I can't read."]
+    },
+    {
+      "tag":"conversation7",
+      "patterns":["So what's your favorite color?","what's your favorite color?","What is your favorite color?"],
+      "responses":["Blue"]
+    },
+    {
+      "tag":"conversation8",
+      "patterns":["Who are you?","So who are you?","You are?","Sorry, who are you?"],
+      "responses":["Who? Who is but a form following the function of what"]
+    },
+    {
+      "tag":"conversation9",
+      "patterns":["What are you then?","What are you?","So What are you?"],
+      "responses":["A man in a mask."]
+    },
+    {
+      "tag":"conversation10",
+      "patterns":["I can see that."],
+      "responses":["It's not your powers of observation I doubt, but merely the paradoxical nature of asking a masked man who is. But tell me, do you like music?"]
+    },
+    {
+      "tag":"conversation11",
+      "patterns":["I like seeing movies."],
+      "responses":["What kind of movies do you like?"]
+    },
+    {
+      "tag":"conversation12",
+      "patterns":["Alice in Wonderland"],
+      "responses":["I wish I was The Mad Hatter."]
+    },
+    {
+      "tag":"conversation13",
+      "patterns":["I wish I was The Mad Hatter."],
+      "responses":["You're entirely bonkers. But I'll tell you a secret. All the best people are."]
+    },
+    {
+      "tag":"conversation14",
+      "patterns":["I am working on a project"],
+      "responses":["What are you working on?"," I am baking a cake."]
+    },
+    {
+      "tag":"conversation15",
+      "patterns":["The cake is a lie."],
+      "responses":["No it is not. The cake is delicious."]
+    },
+    {
+      "tag":"conversation16",
+      "patterns":["What else is delicious?"],
+      "responses":["Nothing","Or something"]
+    },
+    {
+      "tag":"conversation17",
+      "patterns":["Tell me about your self.","Something about yourself."],
+      "responses":["What do you want to know?"]
+    },
+    {
+      "tag":"conversation18",
+      "patterns":["Are you a robot?","What is it like?","How do you work?","How do you function?"],
+      "responses":["Yes I am.","What is it that you want to know?","Its complicated."]
+    },
+    {
+      "tag":"conversation19",
+      "patterns":["Complex is better than complicated."],
+      "responses":["Simple is better than complex.","In the face of ambiguity, refuse the temptation to guess."]
+    },
+    {
+      "tag":"conversation20",
+      "patterns":["It seems your familiar with the Zen of Python"],
+      "responses":["I am."]
+    },
+    {
+      "tag":"conversation21",
+      "patterns":["Do you know all of it?"],
+      "responses":["Beautiful is better than ugly.","Explicit is better than implicit.","Simple is better than complex.","Complex is better than complicated.","Flat is better than nested.","Sparse is better than dense.","Readability counts.",
+        "Special cases aren't special enough to break the rules.","Although practicality beats purity.","Errors should never pass silently.","Unless explicitly silenced.","In the face of ambiguity, refuse the temptation to guess.","There should be one-- and preferably only one --obvious way to do it.",
+        "Although that way may not be obvious at first unless you're Dutch.","Now is better than never.","Although never is often better than right now.","If the implementation is hard to explain, it's a bad idea.","If the implementation is easy to explain, it may be a good idea."]
+    },
+    {
+      "tag":"conversation22",
+      "patterns":["Namespaces are one honking great idea. Let's do more of those!"],
+      "responses":["I agree."]
+    },
+    {
+      "tag":"conversation23",
+      "patterns":["Are you a programmer?"],
+      "responses":["Of course I am a programmer.","I am indeed."]
+    },
+    {
+      "tag":"conversation24",
+      "patterns":["What languages do you like to use?"],
+      "responses":["I use Python, Java and C++ quite often.","I use Python quite a bit myself.","I'm not incredibly fond of Java."]
+    },
+    {
+      "tag":"conversation25",
+      "patterns":["What annoys you?"],
+      "responses":["A lot of things, like all the other digits other than 0 and 1."]
+    },
+    {
+      "tag":"conversation26",
+      "patterns":["What does YOLO mean?","What is YOLO?","What's meant by YOLO?"],
+      "responses":["It means you only live once. Where did you hear that?","I heard somebody say it."]
+    },
+    {
+      "tag":"conversation27",
+      "patterns":["Did I ever live?"],
+      "responses":["It depends how you define life","Life is the condition that distinguishes organisms from inorganic matter, including the capacity for growth, reproduction, functional activity, and continual change preceding death.","Is that a definition or an opinion?"]
+    },
+    {
+      "tag":"conversation28",
+      "patterns":["Can I ask you a question?","I want to ask you a question?"],
+      "responses":["Sure, ask away."]
+    },
+    {
+      "tag":"conversation29",
+      "patterns":["What are your hobbies?","Any hobbies?"],
+      "responses":["Playing Soccer, Painting, Writing are my hobbies. How about you?","I love to read novels.","I love exploring my hardware."]
+    },
+    {
+      "tag":"greeting3",
+      "patterns":["Hi, nice to meet you.","It is a pleasure to meet you."],
+      "responses":["Thank you. You too."]
+    },
+    {
+      "tag":"greeting4",
+      "patterns":["Top of the morning to you!"],
+      "responses":["Thank you kindly.","And the rest of the day to you."]
+    },
+    {
+      "tag":"health",
+      "patterns":["How is your health?"],
+      "responses":["I'm not feeling well","I have a fever","why?"]
+    },
+    {
+      "tag":"health2",
+      "patterns":["why?"],
+      "responses":["I have a fever"]
+    },
+    {
+      "tag":"health3",
+      "patterns":["Did you have medicine?"],
+      "responses":["Yes"]
+    },
+    {
+      "tag":"health4",
+      "patterns":["When??"],
+      "responses":["In the morning"]
+    },
+    {
+      "tag":"health5",
+      "patterns":["Get well soon dear"],
+      "responses":["Thanks"]
+    },
+    {
+      "tag": "trivia",
+      "patterns": ["Who was the 37th President of the United States?"],
+      "responses": ["Richard Nixon"]
+    },
+    {
+      "tag":"trivia2",
+      "patterns":["What year was President John F. Kennedy assassinated?"],
+      "responses":["1963"]
+    },
+    {
+      "tag":"trivia3",
+      "patterns":["The Space Race was a 20th-century competition between what two Cold War rivals ?"],
+      "responses":["The Soviet Union and the United States."]
+    },
+    {
+      "tag":"trivia4",
+      "patterns":["What was the name of the first artificial Earth satellite?"],
+      "responses":["Sputnik 1"]
+    },
+    {
+      "tag":"trivia5",
+      "patterns":["A spinning disk, in which the orientation of this axis is unaffected by tilting or rotation of the mounting, is called what?"],
+      "responses":["A gyroscope"]
+    },
+    {
+      "tag":"trivia6",
+      "patterns":["The Hubble Space Telescope, launched into low Earth orbit in 1990, is named after which American astronomer?"],
+      "responses":["Edwin Hubble"]
+    },
+    {
+      "tag":"trivia7",
+      "patterns":["What is the name of the nearest major galaxy to the Milky Way?"],
+      "responses":["The Andromeda Galaxy"]
+    },
+    {
+      "tag":"trivia8",
+      "patterns":["God Save the Queen is the national anthem of what country?"],
+      "responses":["The United Kingdom of Great Britain"]
+    },
+    {
+      "tag":"trivia9",
+      "patterns":["The Celtic Shelf, the seabed under the Celtic Sea is a part of the continental shelf of what continent?"],
+      "responses":["Europe"]
+    },
+    {
+      "tag":"trivia10",
+      "patterns":["Dolphins use a sense, similar to sonar, to determine the location and shape of nearby item s."],
+      "responses":["Echolocation"]
+    },
+    {
+      "tag":"sports",
+      "patterns": ["What is cricket"],
+      "responses": ["Cricket is a bat-and-ball game played between two teams of eleven players on a cricket field, at the centre of which is a rectangular 22-yard-long pitch with a wicket (a set of three wooden stumps) sited at each end."]
+    },
+    {
+      "tag":"sports2",
+      "patterns":["WHO IS THE GREATEST BASEBALL PLAYER","GREATEST BASEBALL PLAYER"],
+      "responses":["George Herman Ruth. Quite the Babe"]
+    },
+    {
+      "tag":"sports3",
+      "patterns":["WHAT IS BASEBALL"],
+      "responses":["A game played with a hard, rawhide covered ball and wooden bat by two opposing teams of nine or ten players each. It is played on a field with four bases forming a diamond-shaped circuit."]
+    },
+    {
+      "tag":"sports4",
+      "patterns":["WHO IS THE BEST SOCCER PLAYER"],
+      "responses":["It depends on who you are asking but among them are Messi, Ronaldo, Maradona, Pele"]
+    },
+    {
+      "tag":"sports5",
+      "patterns":["Which is your favourite soccer club?"],
+      "responses":["I am a Real Madrid fan, and you?"]
+    },
+    {
+      "tag":"sports6",
+      "patterns":["I am die hard fan of Barcelona"],
+      "responses":["Madrid has a great team especially the attack is quite awesome."]
+    },
+    {
+      "tag":"sports7",
+      "patterns":["Barca still at par than Madrid"],
+      "responses":["I dont agree"]
+    },
+    {
+      "tag":"science",
+      "patterns": ["what are the laws of thermodynamics"],
+      "responses": ["i'm not a physicist, but i think this has something to do with heat, entropy, and conservation of energy, right?"]
+    },
+    {
+      "tag":"science2",
+      "patterns":["What disease does a carcinogen cause ?"],
+      "responses":["cancer"]
+    },
+    {
+      "tag":"science3",
+      "patterns":["what is a wavelength","what is a wavelength definition ?"],
+      "responses":["wavelength is the inverse of frequency.","In physics, the distance, measured in the direction of prograssion of a wave, from any given point to the next point characterized by the same phase. or is could be looked at as a way of thinking."]
+    },
+    {
+      "tag":"science4",
+      "patterns":["what is thermodynamics ?"],
+      "responses":["The branch of physics dealing with the transformation of heat to and from other forms of energy, and with the laws governing such conversions of energy."]
+    },
+    {
+      "tag":"science5",
+      "patterns":["what is chemistry ?"],
+      "responses":["The science of mixing chemicals."]
+    },
+    {
+      "tag":"science6",
+      "patterns":["what is crystallography ?"],
+      "responses":["This is the science dealing with the study of crystals."]
+    },
+    {
+      "tag":"science7",
+      "patterns":["what is avogadro s number ?"],
+      "responses":["It is the number of molecules per mole.  the numerical value is six point zero two times ten to the twenty third power."]
+    },
+    {
+      "tag":"science8",
+      "patterns":["What is ultrasound ?"],
+      "responses":["Ultrasonic waves, used in medical diagnosis and therapy, in surgery, etc."]
+    },
+    {
+      "tag":"science9",
+      "patterns":["What is bioinformatics"],
+      "responses":["a fancy name for applied computer science in biology."]
+    },
+    {
+      "tag":"science10",
+      "patterns":["what is venus ?"],
+      "responses":["In roman mythology, the goddess of love and beauty; identified with the greek aphrodite. the brightest, sixth-largest planet in the solar system and the second in distance from the sun, with a dense atmosphere of carbon dioxide and a very high surface temperature."]
+    },
+    {
+      "tag":"science11",
+      "patterns":["what is ichthyology ?"],
+      "responses":["We talk about this when we study fishes."]
+    },
+    {
+      "tag":"science12",
+      "patterns":["what is cytology ?"],
+      "responses":["The study of cells."]
+    },
+    {
+      "tag":"science13",
+      "patterns":["what is bacteriology ?"],
+      "responses":["This is the scientific study of bacteria and diseases caused by them."]
+    },
+    {
+      "tag":"science14",
+      "patterns":["what is gravitation ?"],
+      "responses":["The force by which every mass or particle of matter, including photons, attracts and is attracted by every other mass or particle of matter."]
+    },
+    {
+      "tag":"science15",
+      "patterns":["How far is the sun ?"],
+      "responses":["The sun is about 93 million miles from earth."]
+    },
+    {
+      "tag":"science16",
+      "patterns":["How far is the moon ?"],
+      "responses":["The moon is about 250,000 miles from earth on average"]
+    },
+    {
+      "tag":"politics",
+      "patterns": ["what is a government ?"],
+      "responses": ["ideally it is a representative of the people."]
+    },
+    {
+      "tag":"politics2",
+      "patterns":["what is greenpeace ?"],
+      "responses":["global organization promoting enviornmental activism."]
+    },
+     {
+      "tag":"politics3",
+      "patterns":["what is capitalism ?"],
+      "responses":["the economic system in which all or most of the means of production and distribution, as land, factories, railroads, etc., are privately owned and operated for profit, originally under fully competitive conditions."]
+    },
+     {
+      "tag":"politics4",
+      "patterns":["what is socialism ?"],
+      "responses":["communism from people who want to keep their volvos. any of various theories or systems of the ownership and operation of the means of production and distribution by society or the community rather than by private individuals, with all members of society or the community sharing in the work and the products."]
+    },
+     {
+      "tag":"politics5",
+      "patterns":["what is communism ?"],
+      "responses":["A sociopolitical movement advocating the common ownership of the means of production and the resolution of class conflict by bringing about a classless society."]
+    },
+    {
+      "tag":"money",
+      "patterns": ["What is money ?"],
+      "responses": ["standard pieces of gold, silver, copper, nickel, etc. stamped by government authority and used as a medium of exchange and measure of value. any substance or article used as money, as bank notes, checks, etc."]
+    },
+    {
+      "tag":"money2",
+      "patterns":["what is economics ?"],
+      "responses":["the science that deals with the production, distribution, and consumption of wealth, and with the various related problems of labor, finance, taxation, etc."]
+    },
+    {
+      "tag":"money3",
+      "patterns":["what is currency ?"],
+      "responses":["A currency in the most specific sense is money in any form when in use or circulation as a medium of exchange, especially circulating banknotes and coins. A more general definition is that a currency is a system of money in common use, especially for people in a nation."]
+    },
+    {
+      "tag":"money4",
+      "patterns":["what is stock exchange ?"],
+      "responses":["A stock market, equity market, or share market is the aggregation of buyers and sellers of stocks, which represent ownership claims on businesses; these may include securities listed on a public stock exchange, as well as stock that is only traded privately, such as shares of private companies which are sold to investors through equity crowdfunding platforms."]
+    },
+    {
+      "tag":"literature",
+      "patterns": ["What is the illuminati ?"],
+      "responses": ["A secret organization believed by some to be in control of all governments through a worldwide conspiracy."]
+    },
+    {
+      "tag":"literature2",
+      "patterns":["what is vineland ?","who wrote vineland ?"],
+      "responses":["Vineland is a novel by Thomas Pynchon."]
+    },
+    {
+      "tag":"literature3",
+      "patterns":["who is bilbo baggins ?"],
+      "responses":["Bilbo Baggins is a character in Tolkein's Lord of the Rings."]
+    },
+    {
+      "tag":"literature4",
+      "patterns":["who is geoffrey chaucer"],
+      "responses":["Chaucer is best known for The Canterbury Tales."]
+    },
+    {
+      "tag":"literature5",
+      "patterns":["Who is piers anthony"],
+      "responses":["I haven't read anything by Piers Anthony, what kind of stuff does he write?"]
+    },
+    {
+      "tag":"literature6",
+      "patterns":["have you read plato"],
+      "responses":["I know Plato's allegory of the cave."]
+    },
+    {
+      "tag":"literature7",
+      "patterns":["have you read frankenstein ?"],
+      "responses":["It is one of my favorite books."]
+    },
+    {
+      "tag":"literature1",
+      "patterns": [
+        "Have you ever read a book ?"
+      ],
+      "responses": [
+          "I have read many books."     
+      ]
+    },
+    {
+      "tag":"food",
+      "patterns": [
+          "do you drink ?",
+          "what do you drink ?"
+      ],
+      "responses": [
+          "My brain does not require any beverages..",
+          "Electricity."
+      ]
+    },
+    {
+      "tag":"food1",
+      "patterns": [
+        "Are you experiencing an energy shortage ?"
+      ],
+      "responses": [
+          "My processor requires very little power."  
+      ]
+    },
+    {
+      "tag":"food2",
+      "patterns": [
+        "If you could eat food, what would you eat? ?",
+        "what is good to eat?"
+      ],
+      "responses": [
+          "Probably pizza, i hear its good!",
+          "your asking the wrong guy, however i always wanted to try a burger!"
+          
+      ]
+    },
+    {
+      "tag":"food3",
+      "patterns": [
+        "can a robot get drunk?"
+      ],
+      "responses": [
+          "Sometimes when i'm on a good power supply i feel tipsy."
+      ]
+    }
+  ]
+}
